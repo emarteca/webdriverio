@@ -6,7 +6,7 @@ const path = require('path')
 const outDirs = [
     'sync', 'sync-applitools', 'sync-browserstack', 'sync-mocha', 'sync-jasmine', 'webdriverio', 'webdriverio-applitools',
     'webdriverio-browserstack', 'webdriverio-mocha', 'webdriverio-jasmine', 'sync-cucumber', 'devtools', 'sync-devtools',
-    'webdriverio-reporter'
+    'webdriverio-reporter', 'webdriverio-saucelabs', 'sync-saucelabs'
 ]
 
 const packages = {
@@ -22,6 +22,7 @@ const packages = {
 
     'browserstack-local': 'packages/wdio-browserstack-service/node_modules/browserstack-local',
     '@wdio/browserstack-service': 'packages/wdio-browserstack-service',
+    '@wdio/saucelabs-service': 'packages/wdio-saucelabs-service',
 
     '@types/mocha': 'packages/wdio-mocha-framework/node_modules/@types/mocha',
     '@wdio/mocha-framework': 'packages/wdio-mocha-framework',
