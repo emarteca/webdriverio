@@ -22,7 +22,7 @@ const packages = {
 
     'browserstack-local': 'packages/wdio-browserstack-service/node_modules/browserstack-local',
     '@wdio/browserstack-service': 'packages/wdio-browserstack-service',
-    '@wdio/saucelabs-service': 'packages/wdio-saucelabs-service',
+    '@wdio/sauce-service': 'packages/wdio-sauce-service',
 
     '@types/mocha': 'packages/wdio-mocha-framework/node_modules/@types/mocha',
     '@wdio/mocha-framework': 'packages/wdio-mocha-framework',
