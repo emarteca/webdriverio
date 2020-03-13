@@ -6,5 +6,5 @@ const conf: WebdriverIO.Config = {
     ],
 
     // can be function only
-    afterSuite: () => {},
+    afterSuite: () => {}
 }
