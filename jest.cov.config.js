@@ -4,8 +4,8 @@ module.exports = {
   //  '^.+\\.tsx?$': 'ts-jest',
   //},
   //testMatch: ['**/unit/**/*-test.ts{,x}'],
-  //moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-  setupFiles: ['unit-error-hack.js'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  setupFiles: ['<rootDir>/unit-error-hack.js'],
   //setupTestFrameworkScriptFile: '<rootDir>/test/setup-test-framework.ts',
   //collectCoverageFrom: [
   //  'src/**/*.{js,jsx,ts,tsx}',

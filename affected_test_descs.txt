@@ -1,0 +1,4 @@
+ should not start server when no mount folder is defined
+index should gracefully fail
+Command: run should call missingConfigurationPrompt if no config found
+ should stream logs to log dir
